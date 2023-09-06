@@ -6,3 +6,7 @@
 #primeraParte, footer{
     background-color: #FEF4F4;
 }
+
+body {
+    font-family: 'Playfair Display', serif;
+}
