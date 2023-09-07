@@ -10,3 +10,43 @@
 body {
     font-family: 'Playfair Display', serif;
 }
+
+.referencia{ 
+    display: inline-block;
+    border: 2px solid #CCCCCC;
+    border-radius: 40%;
+    margin: 5px;
+}
+
+.indice{
+    background-color: #ffdddd;
+    padding: 10px;
+
+}
+.elementoIndice{
+    padding: 10px;
+    margin: 10px;
+    display: inline;
+}
+
+#indiceReferencias {
+    padding: 10px;
+}
+
+.descripcion{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 35%;
+}
+
+.links{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 60%;
+}
+
+.categorias, .otrasPestañas{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 40%;
+}
