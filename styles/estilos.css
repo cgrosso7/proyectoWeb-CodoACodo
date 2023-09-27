@@ -36,8 +36,11 @@ body {
 
 .descripcion{
     box-sizing: border-box;
-    display: inline-block;
-    width: 35%;
+    margin: 3% 0 0 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60%;
 }
 
 .links{
@@ -46,7 +49,7 @@ body {
     width: 60%;
 }
 
-.categorias, .otrasPestañas{
+.categorias1, .categorias2, .otrasPestañas{
     box-sizing: border-box;
     display: inline-block;
     width: 40%;
@@ -73,6 +76,10 @@ a{
 }
 .box6{
     grid-column: span 6;
+}
+
+.box4{
+    grid-column: span 4;
 }
 
 .box2{
@@ -117,7 +124,7 @@ a{
 
 .lista-flex li {
     background-color: #ffffff;
-    border: 2px solid #888888;
+    border: 2px solid #BBBBBB;
     border-radius: 30% 30% 30% 30%;
     padding: 10px;
     margin: 5px;
@@ -151,4 +158,44 @@ a{
 
 .boton:hover{
     background-color: #e71b1b;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.categorias1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.categorias2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.listaFooter li{
+    padding: 5px 0 5px 0;
+}
+
+.derechos{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloCategoria, .tituloPestañas{
+    padding: 25px 0 25px 0;
+    color:#121b40
+}
+
+.imgFooter{
+    width: 50%;
+    height: auto;
 }
