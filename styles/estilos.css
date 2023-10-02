@@ -18,7 +18,28 @@ body {
     font-family: "Roboto",sans-serif;
     font-size: large;
 }
+.carrouselPublicacionDestacada{
+    box-sizing: border-box;
+    background-color: #FEF4F4;
 
+
+}
+.publicacionDestacada{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+#botondestacado{
+    
+}
+
+#imagenDestacada{
+    display: flex;
+    height: 10em;
+    width: auto;
+}
 .referencia{ 
     display: inline-block;
     border: 2px solid #CCCCCC;
@@ -165,6 +186,7 @@ cambios leonardo
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 1em;
 }
 
 .flexColumnCenter{
@@ -181,8 +203,6 @@ cambios leonardo
     align-items: flex-start;
     padding-left: 4%;
 }
-
-
 
 .lista{
     list-style: none;
@@ -216,7 +236,6 @@ cambios leonardo
     align-items: center;
     padding-left: 5%;
 } 
-
 
 .boton{
     margin: 2%;
@@ -294,7 +313,7 @@ cambios leonardo
 #verMas{
     grid-column: 7/10;
     grid-row: 1;
-    margin-right:30%;
+    margin-right: 30%;
 }
 #ganadorSemanal{
     max-width: 400px;
