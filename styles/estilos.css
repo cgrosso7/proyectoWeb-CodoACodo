@@ -1,6 +1,13 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@400;700&display=swap');
+
+
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 #primeraParte, footer{
@@ -112,6 +119,48 @@ a{
     grid-column: span 12;
 }
 
+/*
+combios leonardo   
+*/
+.contImgl{
+    margin-top: 10px;
+    width: 200px;
+    height: 300px;
+}
+
+.imgl{
+    width: 100%;
+    height: 100%;
+}
+
+.publicacion:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.titulo{
+    margin-top: 10px;
+    font-weight: bolt;
+    font-size: 1.5rem;
+}
+
+.autor{
+    color: #e71b1b;
+}
+
+.precio{
+    margin-top: 5px;
+}
+
+p{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/*
+cambios leonardo
+*/
+
 .flexCenter{
     display: flex;
     align-items: center;
@@ -133,8 +182,7 @@ a{
     padding-left: 4%;
 }
 
-.img{
-}
+
 
 .lista{
     list-style: none;
