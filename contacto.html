@@ -3,20 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/estilos.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
-<body>
-    <h1>CONTACTO</h1>
+<header>
 
-    <ul>
-        <li><a href="index.html">Principal</a></li>
-        <li><a href="categorias.html">Categorias</a></li>
-        <li><a href="sobreNosotros.html">Sobre nosotros</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-    </ul>
-</body>
-</html>
+</header>
+<nav>
+    <div class = "barraDeNavegacion">
+        <img src="./img/Iconos/ABCbook.jpg">
+        <li class="elementoIndice"><a href="index.html">Principal</a></li>
+        <li class="elementoIndice"><a href="categorias.html">Categorias</a></li>
+        <li class="elementoIndice"><a href="sobreNosotros.html">Sobre nosotros</a></li>
+        <li class="elementoIndice"><a href="contacto.html">Contacto</a></li>
+    </div>
+</nav>
+<body>
+    <h1 class = "TítuloPrincipal">Contáctanos</h1>
+    <div class = "Ubicacion">
+        <h2>¿Dónde estamos?</h2>
+        <span id = "mapita">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3975.2013744527703!2d55.47784518579288!3d-4.6515351215820635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1693767716636!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </span>
+        <div class="datosDeContacto">
+        <img src="./img/Iconos/ubiacion.png" width="34px" height="34px">     <span class="dato">Av. del Trabajo 1234</span> </br></br>
+        <img src="./img/Iconos/telefono.png" width="35px" height="30px">     <span class="dato">+54 9 11 5467-8900</span> </br></br>
+        <img src="./img/Iconos/mail.png" width="35px" height="30px">     <span class="dato">info@abcbooks.com.ar</span>
+        </div>
+    </div>
+    <div>
+        <h2>Contáctanos</h2>
+        <form method="post" class="formularioDeContacto">
+           <label for="nombre">Nombre: </label>
+           <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre">
+           <label for="apellido">Apellido: </label>
+           <input type="text" name="apellido" id="apellido" placeholder="Escribe tu apellido">
+           <label for="mail">Mail: </label>
+           <input type="email" name="mail" id="mail" placeholder="Escribe tu dirección de mail">
+           <label for="mensaje">Mensaje:</label>
+	       <textarea name="mensaje" for="mensaje" placeholder="Dejanos tu mensaje"></textarea>
+           <input type="submit" name="enviar" value="Enviar"/>
+        </form>
+    </div>
+<footer>
+    <div class = "footer">
+        <img src="./img/Iconos/ABCbook.jpg">
+        <li class="elementoIndice"><a href="index.html">Principal</a></li>
+        <li class="elementoIndice"><a href="categorias.html">Categorias</a></li>
+        <li class="elementoIndice"><a href="sobreNosotros.html">Sobre nosotros</a></li>
+        <li class="elementoIndice"><a href="contacto.html">Contacto</a></li>
+    </div>
+    <p id="leyendaFooter">Esto es una página de pre-entrega</p>
+</footer>
