@@ -32,21 +32,12 @@ body {
     align-items: center;
     padding: 2em;
 }
-#botondestacado{
-    
-}
+
 
 #imagenDestacada{
     display: flex;
     height: 10em;
     width: auto;
-}
-.referencia{ 
-    display: inline-block;
-    border: 2px solid #CCCCCC;
-    border-radius: 100%;
-    margin: 5px;
-    transition: all 0.8s ease;
 }
 
 .indice{
