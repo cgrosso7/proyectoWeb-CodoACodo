@@ -107,6 +107,16 @@ a:hover {
     box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.2);
 }
 
+
+.indice li a:hover{
+    cursor: pointer;
+    background-color: #f17676;
+    border-radius: 15px;
+    color: white;
+    padding: 10px; /* Espaciado interno para el contenido del botón */
+    
+}
+
 .ultimosPublicados{
     display:grid;
     background-color: rgb(248, 224, 224);
@@ -151,6 +161,13 @@ combios leonardo
     margin-top: 10px;
     width: 200px;
     height: 300px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ffdddd;
 }
 
 .imgl{
