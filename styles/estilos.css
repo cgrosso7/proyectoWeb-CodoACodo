@@ -414,3 +414,21 @@ cambios leonardo
     margin: 5px;
     transition: all 0.8s ease;
 }
+
+.about{
+    padding: 5%;
+    font-size: 200%;
+    color: #606060;
+    margin: 2% 5%;
+    background-image: linear-gradient(#ffdddd, rgba(255, 255, 255, 0.7)), url("../img/books.png");
+}
+
+
+.sectionAbout{
+    margin: 3% 20%;
+}
+
+#sobreNosotros, #quienesSomos{
+    font-weight: normal;
+    color: #808080
+}
