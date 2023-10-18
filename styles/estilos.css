@@ -406,3 +406,11 @@ cambios leonardo
 .ml-10{
     margin-left: 10%;
 }
+
+.referencia{ 
+    display: inline-block;
+    border: 2px solid #CCCCCC;
+    border-radius: 100%;
+    margin: 5px;
+    transition: all 0.8s ease;
+}
