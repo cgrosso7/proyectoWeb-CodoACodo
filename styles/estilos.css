@@ -33,6 +33,50 @@ body {
     padding: 2em;
 }
 
+.botonNext{
+    background-color: #f17676;
+    margin: 1em;
+}
+
+.botonPrev{
+    background-color: #121b40;
+    margin: 1em;
+}
+
+.tituloCarousel{
+    font-size: 2em;
+    color: #606060;
+    padding: 0.5em;
+}
+
+.cajaTituloCarousel{
+    background-color: #ffdddd;
+    max-height: fit-content;
+    padding: 0;
+    margin: 2%;
+    
+}
+
+#cajaTituloCienciaFiccion{
+    background-image: url("../img/space.jpg");
+    opacity: 0.9;
+}
+
+#cajaTituloHistoria{
+    /*background-image: linear-gradient(#ffffff, rgba(255, 255, 255, 0.4)), url("../img/history.jpg");*/
+    background-image: url("../img/history.jpg");
+    opacity: 0.8;
+}
+
+#cajaTituloRomanticos{
+    background-image: url("../img/romance.jpg");
+    opacity: 0.8;
+}
+
+#cajaTituloInfantiles{
+    background-image: url("../img/infantil.jpg");
+    opacity: 0.8;
+}
 
 #imagenDestacada{
     display: flex;
@@ -42,7 +86,8 @@ body {
 
 .indice{
     background-color: #ffdddd;
-    padding: 10px;
+    padding:10px;
+    margin:0;
 
 }
 .elementoIndice{
@@ -167,6 +212,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    margin: 0;
     background-color: #ffdddd;
 }
 
@@ -432,3 +478,20 @@ cambios leonardo
     font-weight: normal;
     color: #808080
 }
+
+@media (min-width: 300px) and (max-width: 900px){
+    .flexCenter{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .BestSellers{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 2%;
+    }
+}
+
+
