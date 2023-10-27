@@ -140,6 +140,10 @@
                     </div>
                 </div>
             </div>
+            <section>
+                <h3 class="flexCenter">TOP LIBROS DE LA GENTE</h3>
+                <div id="ultimaSeccion"></div>
+            </section>
         </main>
         <footer>
             <div class="footer">
@@ -192,6 +196,23 @@
                 <div class="derechos box12"><p>Derechos reservados</p></div>
             </div>
         </footer>
+        <script>
+            async function getBooks(){
+                let response = await fetch("https://gutendex.com/books/") 
+                let data = await response.json();
+                let n = 0
+                for (let i of data.results){
+                    if (n < 10) {
+                        document.getElementById("ultimaSeccion").innerHTML += '<article class="librosDeGente flexCenter"><p>'+ (n+1)+ ') ' + i.title + '</p></article>';
+                        n++;
+                    }
+                }
+                
+            }
+        
+            getBooks();
+        </script>
     </div>
+    
 </body>
 </html>
