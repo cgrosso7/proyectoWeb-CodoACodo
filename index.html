@@ -203,7 +203,7 @@
                 let n = 0
                 for (let i of data.results){
                     if (n < 10) {
-                        document.getElementById("ultimaSeccion").innerHTML += '<article class="librosDeGente flexCenter"><p>'+ (n+1)+ ') ' + i.title + '</p></article>';
+                        document.getElementById("ultimaSeccion").innerHTML += '<article class="librosDeGente flexCenter"><p>'+ (n+1)+ ') ' + i.title + ' - ' + i.authors[0].name +'</p></article>';
                         n++;
                     }
                 }
