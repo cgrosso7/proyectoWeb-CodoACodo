@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,62 +12,71 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
 </head>
+
 <body>
-    <div>
-        <header>
-            <a href="index.html"><img src="img/logo.png" alt="logo principal"></a>
-            <input type="checkbox" id="menu-toggle" class="menu-toggle">
-            <label for="menu-toggle" class="menu-icon">&#9776;</label>
-            <nav>
-                <ul class="indice">
-                    <li class="elementoIndice"><a href="index.html">Principal</a></li>
-                    <li class="elementoIndice"><a href="categorias.html">Categorías</a></li>
-                    <li class="elementoIndice"><a href="sobreNosotros.html">Sobre nosotros</a></li>
-                    <li class="elementoIndice"><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
+    <header>
+
+        <a href="index.html"><img src="img/logo.png" alt="logo principal"></a>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <nav>
+            <ul class="indice">
+                <li class="elementoIndice"><a href="index.html">Principal</a></li>
+                <li class="elementoIndice"><a href="categorias.html">Categorías</a></li>
+                <li class="elementoIndice"><a href="sobreNosotros.html">Sobre nosotros</a></li>
+                <li class="elementoIndice"><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
         </header>
         <main>
             <div class="carrouselPublicacionDestacada">
-                <h2 class="box8 flexCenter">Libros Destacados</h2>
-                    <div class="publicacionDestacada">
-                        <img id= "PortadaDestacada"src="./img/libros/FotoCarrousel.jpg" alt="imagenParaElCarrousel">
-                        <button class="boton">Ver mas</button>
-                    </div>
+                <h2 class="box8 flexCenter tituloLibrosDestacados">Libros Destacados</h2>
+                <div class="publicacionDestacada">
+                    <img id="PortadaDestacada" src="./img/libros/FotoCarrousel.jpg" alt="imagenParaElCarrousel">
+                    <button class="boton">Ver mas</button>
+                </div>
             </div>
             <div id="primeraParte">
                 <h2 class="box8 flexCenter">Libros con mayores ventas</h2>
                 <div class="flexCenter">
-                        <div class="publicacion box2 flexColumnCenter">
-                            <div class="contImgl"><img src="img/libros/RomanticosVI.jpg" class="imgl" alt="Heartstopper"></div>
-                            <p class="titulo">Heartstopper</p>
-                            <p class="autor">Alice Oseman</p>
-                            <p class="precio">50$</p>
+                    <div class="publicacion box2 flexColumnCenter">
+                        <div class="contImgl"><img src="img/libros/RomanticosVI.jpg" class="imgl" alt="Heartstopper">
                         </div>
-                        <div class="publicacion box2 flexColumnCenter">
-                            <div class="contImgl"><img src="img/libros/RomanticosV.jpg" class="imgl" alt="LaEcuacionDelAmor"></div>
-                            <p class="titulo">La ecuacion del amor</p>
-                            <p class="autor">Aldous Huxley</p>
-                            <p class="precio">50$</p>
+                        <p class="titulo">Heartstopper</p>
+                        <p class="autor">Alice Oseman</p>
+                        <p class="precio">50$</p>
+                    </div>
+                    <div class="publicacion box2 flexColumnCenter">
+                        <div class="contImgl"><img src="img/libros/RomanticosV.jpg" class="imgl"
+                                alt="LaEcuacionDelAmor">
                         </div>
-                        <div class="publicacion box2 flexColumnCenter">
-                            <div class="contImgl"><img src="img/libros/InfantilesI.jpg" class="imgl" alt="LibroCienciaFiccion"></div>
-                            <p class="titulo">El principito</p>
-                            <p class="autor">Aldous Huxley</p>
-                            <p class="precio">50$</p>
+                        <p class="titulo">La ecuacion del amor</p>
+                        <p class="autor">Aldous Huxley</p>
+                        <p class="precio">50$</p>
+                    </div>
+                    <div class="publicacion box2 flexColumnCenter">
+                        <div class="contImgl"><img src="img/libros/InfantilesI.jpg" class="imgl"
+                                alt="LibroCienciaFiccion">
                         </div>
-                        <div class="publicacion box2 flexColumnCenter">
-                            <div class="contImgl"><img src="img/libros/CienciaFiccionV.jpg" class="imgl" alt="LibroCienciaFiccion"></div>
-                            <p class="titulo">1984</p>
-                            <p class="autor">George Orwell</p>
-                            <p class="precio">50$</p>
-                        </div>
-                </div>    
+                        <p class="titulo">El principito</p>
+                        <p class="autor">Aldous Huxley</p>
+                        <p class="precio">50$</p>
+                    </div>
+                    <div class="publicacion box2 flexColumnCenter">
+                        <div class="contImgl"><img src="img/libros/CienciaFiccionV.jpg" class="imgl"
+                                alt="LibroCienciaFiccion"></div>
+                        <p class="titulo">1984</p>
+                        <p class="autor">George Orwell</p>
+                        <p class="precio">50$</p>
+                    </div>
+                </div>
             </div>
 
             <div id="segundaParte">
                 <div class="SemanalesTitulo">
-                    <div id="exitosTitulo"><h2>Exitos semanales</h2></div>
+                    <div id="exitosTitulo">
+                        <h2>Exitos semanales</h2>
+                    </div>
                     <div id="verMas" class="flexRight"><a class="botonVerMas" href="#primeraParte">Ver mas</a></div>
                     <div id="ganadorSemanal"><img src="img/libros/HistoriaIII.jpg" alt="HistoriaIII"></div>
                     <div id="topLibros">
@@ -76,12 +86,13 @@
                                 <p id="tituloLibroTop">HeartStopper</p>
                                 <p id="autorLibroTop">By Alice Oseman</p>
                                 <p id="precioLibroTop">$50</p>
-                                <div id="calificacionLibroTop"><img class="imgStars" src="img/45stars.png" alt="Heartstopper"></div>
+                                <div id="calificacionLibroTop"><img class="imgStars" src="img/45stars.png"
+                                        alt="Heartstopper"></div>
                                 <div class="flexCenter">
                                     <button class="boton">Ver detalles</button>
                                 </div>
                             </div>
-                    </div>
+                        </div>
                     </div>
                 </div>
                 <div class="ultimosPublicados">
@@ -97,42 +108,60 @@
                         <div class="img"><img src="img/libros/CienciaFiccionI.jpg" alt="LibroCienciaFiccion"></div>
                         <p>Un Mundo Feliz</p>
                         <p>Aldous Huxley</p>
-                        <div class="puntaje"><img class="starsUltimosPublicados" src="img/45stars.png" alt="Heartstopper"><p>3.5/5</p></div>
+                        <div class="puntaje"><img class="starsUltimosPublicados" src="img/45stars.png"
+                                alt="Heartstopper">
+                            <p>3.5/5</p>
+                        </div>
                         <p>50$</p>
                     </div>
                     <div class="publicacion box2 flexColumnCenter">
                         <div class="img"><img src="img/libros/CienciaFiccionII.jpg" alt="LibroCienciaFiccion"></div>
                         <p>Crónicas marcianas</p>
                         <p>Aldous Huxley</p>
-                        <div class="puntaje"><img class="starsUltimosPublicados" src="img/45stars.png" alt="Heartstopper"><p>3.5/5</p></div>
+                        <div class="puntaje"><img class="starsUltimosPublicados" src="img/45stars.png"
+                                alt="Heartstopper">
+                            <p>3.5/5</p>
+                        </div>
                         <p>50$</p>
                     </div>
                     <div class="publicacion box2 flexColumnCenter">
                         <div class="img"><img src="img/libros/CienciaFiccionIII.jpg" alt="LibroCienciaFiccion"></div>
                         <p>Viaje al centro de la tierra</p>
                         <p>Jules Verne</p>
-                        <div class="puntaje"><img class="starsUltimosPublicados" src="img/45stars.png" alt="Heartstopper"><p>3.5/5</p></div>
+                        <div class="puntaje"><img class="starsUltimosPublicados" src="img/45stars.png"
+                                alt="Heartstopper">
+                            <p>3.5/5</p>
+                        </div>
                         <p>50$</p>
                     </div>
                     <div class="publicacion box2 flexColumnCenter">
                         <div class="img"><img src="img\libros\HistoriaI.jpg" alt="LibroCienciaFiccion"></div>
                         <p>Atila y los hunos</p>
                         <p>Ana Martos Rubio</p>
-                        <div class="puntaje"><img class="starsUltimosPublicados" src="img/45stars.png" alt="Heartstopper"><p>3.5/5</p></div>
+                        <div class="puntaje"><img class="starsUltimosPublicados" src="img/45stars.png"
+                                alt="Heartstopper">
+                            <p>3.5/5</p>
+                        </div>
                         <p>50$</p>
                     </div>
                     <div class="publicacion box2 flexColumnCenter">
                         <div class="img"><img src="img/libros/InfantilesIII.jpg" alt="LibroCienciaFiccion"></div>
                         <p>El libro de la selva</p>
                         <p>Walt Disney</p>
-                        <div class="puntaje"><img class="starsUltimosPublicados" src="img/45stars.png" alt="Heartstopper"><p>3.5/5</p></div>
+                        <div class="puntaje"><img class="starsUltimosPublicados" src="img/45stars.png"
+                                alt="Heartstopper">
+                            <p>3.5/5</p>
+                        </div>
                         <p>50$</p>
                     </div>
                     <div class="publicacion box2 flexColumnCenter">
                         <div class="img"><img src="img/libros/RomanticosIV.jpg" alt="LibroCienciaFiccion"></div>
                         <p>Farsa de amor a la española</p>
                         <p>Elena Armas</p>
-                        <div class="puntaje"><img class="starsUltimosPublicados" src="img/45stars.png" alt="Heartstopper"><p>3.5/5</p></div>
+                        <div class="puntaje"><img class="starsUltimosPublicados" src="img/45stars.png"
+                                alt="Heartstopper">
+                            <p>3.5/5</p>
+                        </div>
                         <p>50$</p>
                     </div>
                     <div class="verMas box12">
@@ -203,22 +232,21 @@
             </section>
         </footer>
         <script>
-            async function getBooks(){
-                let response = await fetch("https://gutendex.com/books/") 
+            async function getBooks() {
+                let response = await fetch("https://gutendex.com/books/")
                 let data = await response.json();
                 let n = 0
-                for (let i of data.results){
+                for (let i of data.results) {
                     if (n < 10) {
-                        document.getElementById("ultimaSeccion").innerHTML += '<article class="librosDeGente flexCenter"><p>'+ (n+1)+ ') ' + i.title + ' - ' + i.authors[0].name +'</p></article>';
+                        document.getElementById("ultimaSeccion").innerHTML += '<article class="librosDeGente flexCenter"><p>' + (n + 1) + ') ' + i.title + ' - ' + i.authors[0].name + '</p></article>';
                         n++;
                     }
                 }
-                
+
             }
-        
+
             getBooks();
         </script>
-    </div>
-    
 </body>
+
 </html>
