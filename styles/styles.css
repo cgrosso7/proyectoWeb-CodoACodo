@@ -6,6 +6,18 @@
     position: sticky;
     
 }
+/* comienzo modificacion charly */
+.navegacionPrincipal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.menu {
+    display: none; /* Oculta el menú por defecto en pantallas pequeñas */
+}
+    /* PODEMOS ELIMINAR MENU y crear desplegable, a charlar */
 
 .PublicacionLibro{
     display:inline-block;
