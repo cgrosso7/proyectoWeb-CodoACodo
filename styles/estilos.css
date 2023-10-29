@@ -33,6 +33,7 @@ body {
     padding: 2em;
 }
 
+
 .botonNext{
     background-color: #f17676;
     margin: 1em;
@@ -84,11 +85,77 @@ body {
     width: auto;
 }
 
-.indice{
+/*Header - Menu hamburguesa*/
+.indice {
     background-color: #ffdddd;
-    padding:10px;
-    margin:0;
+    padding: 10px;
+    margin: 0;
+}
 
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0;
+    background-color: #ffdddd;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    cursor: pointer;
+    font-size: 24px;
+    display: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    input[type="checkbox"].menu-toggle {
+        position: absolute;
+        top: -9999em;
+    }
+    
+    .menu-icon {
+        cursor: pointer;
+        font-size: 24px;
+        display: block;
+    }
+    .indice {
+        display: none;
+    }
+
+    .menu-toggle:checked ~ nav .indice {
+        display: block;
+    }
+
+    .menu-toggle:checked ~ label .menu-icon {
+        display: none;
+    }
+
+    .menu-toggle:checked ~ label .menu-icon:after {
+        content: '✕';
+        display: inline;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .librosDeGente{
@@ -97,6 +164,7 @@ body {
     margin: 1% 15%;
 
 }
+
 .elementoIndice{
     padding: 10px;
     margin: 10px;
@@ -215,13 +283,7 @@ combios leonardo
     height: 300px;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    margin: 0;
-    background-color: #ffdddd;
-}
+
 
 .imgl{
     width: 100%;
@@ -327,7 +389,7 @@ cambios leonardo
     background-color: #e71b1b;
 }
 
-.footer{
+footer{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
@@ -499,6 +561,30 @@ cambios leonardo
         grid-template-columns: repeat(1, 1fr);
         margin: 2%;
     }
+
+    .categorias1, .categorias2, .otrasPestañas{
+        box-sizing: border-box;
+        display: none;
+        width: 100%;
+
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .descripcion{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imgFooter{
+        width: 25%;
+        padding-bottom: 3%;
+        height: auto;
+    }
+    
 }
-
-
