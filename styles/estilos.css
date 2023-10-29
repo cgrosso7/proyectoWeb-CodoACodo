@@ -57,6 +57,11 @@ body {
     
 }
 
+.d-block{
+    width: 60vh;
+    height: auto;
+}
+
 #cajaTituloCienciaFiccion{
     background-image: url("../img/space.jpg");
     opacity: 0.9;
