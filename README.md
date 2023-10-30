@@ -2,8 +2,8 @@
 ## Integrantes
 - [Nahuel Gomez](https://github.com/NahuelNGomez)
 - [Florencia Payaslian](https://github.com/FlorPayaslian)
-- [Integrante](Link)
-- [Integrante](Link)
+- [Leonardo Vargas](https://github.com/leonardofvp)
+- [Carlos Grosso](https://github.com/cgrosso7)
 
 ## Enunciado
 
