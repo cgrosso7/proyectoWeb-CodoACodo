@@ -20,6 +20,7 @@ body {
     font-size: large;
 }
 .carrouselPublicacionDestacada{
+    margin-top:2%;
     box-sizing: border-box;
     background-color: #FEF4F4;
 
@@ -517,6 +518,7 @@ footer{
 #tituloLibroTop{
     font-size: 2.5em;
     padding-bottom: 2%;
+    padding-left: 0;
 }
 
 #autorLibroTop{
@@ -635,5 +637,27 @@ footer{
         padding-bottom: 3%;
         height: auto;
     }
+
+    #verMas, #ganadorSemanal{
+        display:none;
+    }
     
+    .SemanalesTitulo{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    #exitosTitulo{
+        grid-column: 1/5;
+        align-content: center;
+        justify-content: center;
+        margin: 0;
+        margin-top: 3%
+    }
+    #topLibro{
+        align-items: center;
+    }
+    #tituloLibroTop, #autorLibroTop, #precioLibroTop, #calificacionLibroTop{
+        margin: 0;
+        padding:0;
+    }
 }
