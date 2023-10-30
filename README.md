@@ -1,7 +1,7 @@
 # Desarrollo Web - Codo a codo
 ## Integrantes
 - [Nahuel Gomez](https://github.com/NahuelNGomez)
-- [Florencia Payaslian]([Link](https://github.com/FlorPayaslian))
+- [Florencia Payaslian](https://github.com/FlorPayaslian)
 - [Integrante](Link)
 - [Integrante](Link)
 
