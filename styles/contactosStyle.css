@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box
+}
+
+header {
+    box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.3);
+}
+
+section {
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+footer > section {
+    margin: 0;
+    display: block;
+    height:auto;
+}
+
+.barraDeNavegacion {
+    background-color: rgb(253, 253, 152);
+    position: sticky;
+
+}
+
+
+
+.FotoLibro {
+    width: 210px;
+    height: 340px;
+
+
+}
+
+.Titulo {
+    text-align: right;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.Ubicacion,
+.datosDeContacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 360px;
+    background-color: #ffff;
+    box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+iframe {
+    width: 80%;
+    margin-bottom: 4px;
+}
+
+.cont_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 360px;
+    background-color: #ffff;
+    box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.Ubicacion:hover, .datosDeContacto:hover, .cont_form:hover{
+   cursor: pointer;
+   background-color: #FEF4F4;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 80%;
+
+
+}
+
+input {
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+
+textarea {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.btn {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(241, 11, 36);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: rgb(241, 11, 36);
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.dato {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+a {
+    color: black;
+}
+
+#leyendaFooter {
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+
+    section {
+        flex-direction: column;
+        margin-top: 220px;
+        margin-bottom: 220px;
+        height: 100vh;
+    }
+
+    .Ubicacion,
+    .datosDeContacto {
+        margin-bottom: 40px;
+    }
+
+}
